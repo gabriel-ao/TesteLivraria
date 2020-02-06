@@ -1,0 +1,7 @@
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Libraria.Domain\bin\Debug\netcoreapp2.0\Livraria.Domain.deps.json
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Libraria.Domain\bin\Debug\netcoreapp2.0\Livraria.Domain.dll
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Libraria.Domain\bin\Debug\netcoreapp2.0\Livraria.Domain.pdb
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.0\Livraria.Domain.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.0\Livraria.Domain.AssemblyInfo.cs
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.0\Livraria.Domain.dll
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.0\Livraria.Domain.pdb

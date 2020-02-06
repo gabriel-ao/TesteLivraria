@@ -1,0 +1,5 @@
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria.Infra\bin\Debug\netcoreapp3.0\Livraria.Infra.deps.json
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria.Infra\bin\Debug\netcoreapp3.0\Livraria.Infra.dll
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria.Infra\obj\Debug\netcoreapp3.0\Livraria.Infra.csprojAssemblyReference.cache
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria.Infra\obj\Debug\netcoreapp3.0\Livraria.Infra.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria.Infra\obj\Debug\netcoreapp3.0\Livraria.Infra.AssemblyInfo.cs
