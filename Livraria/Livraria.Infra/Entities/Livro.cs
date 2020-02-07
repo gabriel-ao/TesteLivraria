@@ -1,7 +1,6 @@
 ﻿using Livraria.Infra.Entities.Base;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Livraria.Infra.Entities
 {
@@ -9,7 +8,12 @@ namespace Livraria.Infra.Entities
     {
         public string NomeLivro { get; set; }
 
+        // relacionamento com Autor
+        public Guid AutorId { get; set; }
+        public Autor Autor { get; set; }
 
 
+        // relacionamento com exemplar
+        public IList<Exemplar> Exemplares { get; set; }
     }
 }

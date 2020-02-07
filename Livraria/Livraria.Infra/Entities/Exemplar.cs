@@ -5,11 +5,15 @@ using System.Text;
 
 namespace Livraria.Infra.Entities
 {
-    public class Exemplar : Livro
+    public class Exemplar : EntityComplexBase
     {
         public string NomeExemplar { get; set; }
 
         public int NumeroPaginas { get; set; }
+
+        //relacionamento com livro
+        public Guid LivroId { get; set; }
+        public Livro Livro { get; set; }
 
     }
 }

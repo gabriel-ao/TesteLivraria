@@ -12,3 +12,4 @@ D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp
 D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.2\Livraria.Domain.AssemblyInfo.cs
 D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.2\Livraria.Domain.dll
 D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.2\Livraria.Domain.pdb
+D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.2\Livraria.Domain.csprojAssemblyReference.cache
