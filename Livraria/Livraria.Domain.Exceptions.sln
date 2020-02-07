@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{70DE9961-C458-4E36-97C0-BEDA641385B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Domain", "Libraria.Domain\Livraria.Domain.csproj", "{9CEC8FF5-4C30-4DE1-B6E6-3EA2BAD0ED13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Domain", "Libraria.Domain\Livraria.Domain.csproj", "{9CEC8FF5-4C30-4DE1-B6E6-3EA2BAD0ED13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Infra", "Livraria.Infra\Livraria.Infra.csproj", "{83D5DFEB-DB9D-4323-82C1-F0A443D81574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Infra", "Livraria.Infra\Livraria.Infra.csproj", "{83D5DFEB-DB9D-4323-82C1-F0A443D81574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Service", "Livraria.Service\Livraria.Service.csproj", "{8D93FE78-1CB3-45E7-A8F3-114F231A225E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{83D5DFEB-DB9D-4323-82C1-F0A443D81574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83D5DFEB-DB9D-4323-82C1-F0A443D81574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83D5DFEB-DB9D-4323-82C1-F0A443D81574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D93FE78-1CB3-45E7-A8F3-114F231A225E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D93FE78-1CB3-45E7-A8F3-114F231A225E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D93FE78-1CB3-45E7-A8F3-114F231A225E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D93FE78-1CB3-45E7-A8F3-114F231A225E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{04421C5E-1707-48AA-898A-8EA3187088C3} = {F6168E5C-85B0-47B6-A7B2-68FAA8833A0C}
 		{9CEC8FF5-4C30-4DE1-B6E6-3EA2BAD0ED13} = {70DE9961-C458-4E36-97C0-BEDA641385B8}
 		{83D5DFEB-DB9D-4323-82C1-F0A443D81574} = {24E27FA5-9C55-498A-9CA7-9D3BF6CA9796}
+		{8D93FE78-1CB3-45E7-A8F3-114F231A225E} = {3C9E9700-4A02-4E34-99A5-04DB9CC3CFA5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1022A39-72E1-4A3D-9DBA-0C7C6EB44792}

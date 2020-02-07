@@ -4,6 +4,7 @@ using Livraria.Infra.Context;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.IO;
@@ -21,12 +22,8 @@ namespace Livraria
                 var settings = services.GetService<IOptions<LivrariaConfigurations>>();
             }).Run();
 
-            //CreateWebHostBuilder(args).Build().Run();
         }
 
-        //public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-        //    WebHost.CreateDefaultBuilder(args)
-        //        .UseStartup<Startup>();
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)

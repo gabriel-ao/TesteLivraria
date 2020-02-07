@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel\\Documents\\GitHub\\TesteLivraria\\TesteLivraria\\Livraria\\Livraria.Domain\\Livraria.Domain.csproj": {}
+    "D:\\documentos\\GitHub\\TesteLivraria\\Livraria\\Livraria.Service\\Livraria.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel\\Documents\\GitHub\\TesteLivraria\\TesteLivraria\\Livraria\\Livraria.Domain\\Livraria.Domain.csproj": {
+    "D:\\documentos\\GitHub\\TesteLivraria\\Livraria\\Livraria.Service\\Livraria.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\GitHub\\TesteLivraria\\TesteLivraria\\Livraria\\Livraria.Domain\\Livraria.Domain.csproj",
-        "projectName": "Livraria.Domain",
-        "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\TesteLivraria\\TesteLivraria\\Livraria\\Livraria.Domain\\Livraria.Domain.csproj",
+        "projectUniqueName": "D:\\documentos\\GitHub\\TesteLivraria\\Livraria\\Livraria.Service\\Livraria.Service.csproj",
+        "projectName": "Livraria.Service",
+        "projectPath": "D:\\documentos\\GitHub\\TesteLivraria\\Livraria\\Livraria.Service\\Livraria.Service.csproj",
         "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\TesteLivraria\\TesteLivraria\\Livraria\\Livraria.Domain\\obj\\",
+        "outputPath": "D:\\documentos\\GitHub\\TesteLivraria\\Livraria\\Livraria.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -23,14 +23,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -41,7 +41,19 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,11 +64,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }

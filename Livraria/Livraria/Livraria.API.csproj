@@ -6,14 +6,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Polly" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Libraria.Domain\Livraria.Domain.csproj" />
     <ProjectReference Include="..\Livraria.Infra\Livraria.Infra.csproj" />
+    <ProjectReference Include="..\Livraria.Service\Livraria.Service.csproj" />
   </ItemGroup>
 
 </Project>

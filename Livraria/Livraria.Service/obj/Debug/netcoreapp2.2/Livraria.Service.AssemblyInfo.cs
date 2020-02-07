@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Livraria.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Livraria.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Livraria.Domain")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Livraria.Domain")]
+[assembly: System.Reflection.AssemblyProductAttribute("Livraria.Service")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Livraria.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
