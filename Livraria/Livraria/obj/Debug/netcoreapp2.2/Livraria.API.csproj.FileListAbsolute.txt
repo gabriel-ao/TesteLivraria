@@ -17,7 +17,6 @@ C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria\
 C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria\obj\Debug\netcoreapp2.2\Livraria.API.csproj.CopyComplete
 C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria\obj\Debug\netcoreapp2.2\Livraria.API.dll
 C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria\obj\Debug\netcoreapp2.2\Livraria.API.pdb
-D:\documentos\GitHub\TesteLivraria\Livraria\Livraria\bin\Debug\netcoreapp2.2\appsettings.Development.json
 D:\documentos\GitHub\TesteLivraria\Livraria\Livraria\bin\Debug\netcoreapp2.2\appsettings.json
 D:\documentos\GitHub\TesteLivraria\Livraria\Livraria\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
 D:\documentos\GitHub\TesteLivraria\Livraria\Livraria\bin\Debug\netcoreapp2.2\Livraria.API.deps.json

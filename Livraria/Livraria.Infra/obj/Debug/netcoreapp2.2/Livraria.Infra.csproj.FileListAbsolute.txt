@@ -12,6 +12,8 @@ C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria.
 C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria.Infra\bin\Debug\netcoreapp2.2\Livraria.Domain.pdb
 C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Livraria.Infra\obj\Debug\netcoreapp2.2\Livraria.Infra.csproj.CopyComplete
 D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Infra\bin\Debug\netcoreapp2.2\Livraria.Infra.deps.json
+D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Infra\bin\Debug\netcoreapp2.2\Livraria.Infra.runtimeconfig.json
+D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Infra\bin\Debug\netcoreapp2.2\Livraria.Infra.runtimeconfig.dev.json
 D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Infra\bin\Debug\netcoreapp2.2\Livraria.Infra.dll
 D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Infra\bin\Debug\netcoreapp2.2\Livraria.Infra.pdb
 D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Infra\bin\Debug\netcoreapp2.2\Livraria.Domain.dll
