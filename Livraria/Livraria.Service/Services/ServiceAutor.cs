@@ -37,38 +37,93 @@ namespace Livraria.Service.Services
 
         public string AtivarAutorService(Guid id)
         {
-            throw new NotImplementedException();
+            var desativarAutor = GetAutorByIdService(id);
+
+            if (desativarAutor.Active != true)
+            {
+                desativarAutor.Active = true;
+
+                _unitOfWork.Autor.Update(desativarAutor);
+                _unitOfWork.Commit();
+                return Message.MSG_S002;
+            }
+
+            return Message.MSG_D003;
         }
 
         public string CadastrarAutorService(Autor autor)
         {
+            _unitOfWork.Autor.Add(autor);
             _unitOfWork.Commit();
             return Message.MSG_S001;
         }
 
         public string DeletarAutorService(Guid id)
         {
-            throw new NotImplementedException();
+            var deletarAutor = GetAutorByIdService(id);
+
+            if (deletarAutor.Id != null)
+            {
+                _unitOfWork.Autor.Delete(deletarAutor);
+                _unitOfWork.Commit();
+                return Message.MSG_D001;
+            }
+            return Message.MSG_D002;
         }
 
         public string DesativarAutorService(Guid id)
         {
-            throw new NotImplementedException();
+            var desativarAutor = GetAutorByIdService(id);
+
+            if(desativarAutor.Active != false)
+            {
+                desativarAutor.Active = false;
+
+                _unitOfWork.Autor.Update(desativarAutor);
+                _unitOfWork.Commit();
+                return Message.MSG_S002;
+            }
+
+            return Message.MSG_D003;
         }
 
-        public Autor EditarUsuario(Autor autor)
+        public Autor EditarAutor(Autor autor)
         {
-            throw new NotImplementedException();
+            var editAutor = GetAutorByIdService(autor.Id);
+
+            if(editAutor != null)
+            {
+                _unitOfWork.Autor.Update(autor);
+                _unitOfWork.Commit();
+            }
+
+            return autor;
         }
 
         public List<Autor> GetAllAutorByIdService()
         {
-            throw new NotImplementedException();
+            List<Autor> autor = new List<Autor>();
+
+            autor = _unitOfWork.Autor.List();
+
+            if (autor == null)
+            {
+                throw new Exception("Usuario invalido");
+            }
+
+            return autor;
         }
 
-        public IServiceAutor GetAutorByIdService(Guid Id)
+        public Autor GetAutorByIdService(Guid Id)
         {
-            throw new NotImplementedException();
+            var autor = _unitOfWork.Autor.Query(a => a.Id == Id);
+
+            if(autor == null)
+            {
+                throw new Exception("Usuario invalido");
+            }
+
+            return autor;
         }
     }
 }

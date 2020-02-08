@@ -8,8 +8,8 @@ C:\Users\Gabriel\Documents\GitHub\TesteLivraria\TesteLivraria\Livraria\Libraria.
 D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\bin\Debug\netcoreapp2.2\Livraria.Domain.deps.json
 D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\bin\Debug\netcoreapp2.2\Livraria.Domain.dll
 D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\bin\Debug\netcoreapp2.2\Livraria.Domain.pdb
+D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.2\Livraria.Domain.csprojAssemblyReference.cache
 D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.2\Livraria.Domain.AssemblyInfoInputs.cache
 D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.2\Livraria.Domain.AssemblyInfo.cs
 D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.2\Livraria.Domain.dll
 D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.2\Livraria.Domain.pdb
-D:\documentos\GitHub\TesteLivraria\Livraria\Libraria.Domain\obj\Debug\netcoreapp2.2\Livraria.Domain.csprojAssemblyReference.cache

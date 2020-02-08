@@ -11,11 +11,11 @@ namespace Livraria.Service.Interfaces
         string CadastrarAutorService(Autor autor);
 
         // Read
-        IServiceAutor GetAutorByIdService(Guid Id);
+        Autor GetAutorByIdService(Guid Id);
         List<Autor> GetAllAutorByIdService();
 
         // Update
-        Autor EditarUsuario(Autor autor);
+        Autor EditarAutor(Autor autor);
         string AtivarAutorService(Guid id);
 
         // Delete

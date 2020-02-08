@@ -15,8 +15,8 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Reflection;
 using Swashbuckle.AspNetCore.Swagger;
-
-
+using Livraria.Service.Interfaces;
+using Livraria.Service.Services;
 
 namespace Livraria
 {
@@ -81,7 +81,7 @@ namespace Livraria
 
             // Autor
             services.AddTransient<IRepositoryAutor, RepositoryAutor>();
-            //services.AddTransient<IServiceAutor, ServiceAutor>();
+            services.AddTransient<IServiceAutor, ServiceAutor>();
 
             //Livro
             services.AddTransient<IRepositoryLivro, RepositoryLivro>();
