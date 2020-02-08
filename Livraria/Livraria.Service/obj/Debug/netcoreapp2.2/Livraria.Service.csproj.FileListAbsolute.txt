@@ -6,3 +6,8 @@ D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Service\obj\Debug\netcoreap
 D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Service\obj\Debug\netcoreapp2.2\Livraria.Service.AssemblyInfo.cs
 D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Service\obj\Debug\netcoreapp2.2\Livraria.Service.dll
 D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Service\obj\Debug\netcoreapp2.2\Livraria.Service.pdb
+D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Service\bin\Debug\netcoreapp2.2\Livraria.Domain.dll
+D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Service\bin\Debug\netcoreapp2.2\Livraria.Infra.dll
+D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Service\bin\Debug\netcoreapp2.2\Livraria.Domain.pdb
+D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Service\bin\Debug\netcoreapp2.2\Livraria.Infra.pdb
+D:\documentos\GitHub\TesteLivraria\Livraria\Livraria.Service\obj\Debug\netcoreapp2.2\Livraria.Service.csproj.CopyComplete

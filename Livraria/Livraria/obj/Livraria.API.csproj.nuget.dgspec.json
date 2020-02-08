@@ -185,7 +185,14 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\documentos\\GitHub\\TesteLivraria\\Livraria\\Libraria.Domain\\Livraria.Domain.csproj": {
+                "projectPath": "D:\\documentos\\GitHub\\TesteLivraria\\Livraria\\Libraria.Domain\\Livraria.Domain.csproj"
+              },
+              "D:\\documentos\\GitHub\\TesteLivraria\\Livraria\\Livraria.Infra\\Livraria.Infra.csproj": {
+                "projectPath": "D:\\documentos\\GitHub\\TesteLivraria\\Livraria\\Livraria.Infra\\Livraria.Infra.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -273,11 +280,11 @@
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[4.9.4, )"
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
