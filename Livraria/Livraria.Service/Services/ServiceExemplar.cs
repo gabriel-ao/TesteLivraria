@@ -5,6 +5,7 @@ using Livraria.Infra.Interfaces;
 using Livraria.Infra.Libraries.Lang;
 using Livraria.Service.Interfaces;
 using System;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace Livraria.Service.Services
@@ -121,7 +122,7 @@ namespace Livraria.Service.Services
         {
             List<Exemplar> livro = new List<Exemplar>();
 
-            livro = _unitOfWork.Exemplar.List();
+            livro = _unitOfWork.Exemplar.List().OrderBy(x => x.NomeExemplar).ToList();
 
             if (livro == null)
             {

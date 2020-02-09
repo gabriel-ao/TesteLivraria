@@ -5,6 +5,7 @@ using Livraria.Infra.Interfaces;
 using Livraria.Infra.Libraries.Lang;
 using Livraria.Service.Interfaces;
 using System;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace Livraria.Service.Services
@@ -119,7 +120,8 @@ namespace Livraria.Service.Services
         {
             List<Autor> autor = new List<Autor>();
 
-            autor = _unitOfWork.Autor.List();
+            autor = _unitOfWork.Autor.List().OrderBy(x => x.NomeAutor).ToList() ;
+
 
             if (autor == null)
             {

@@ -6,6 +6,7 @@ using Livraria.Infra.Libraries.Lang;
 using Livraria.Service.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Livraria.Service.Services
 {
@@ -74,6 +75,7 @@ namespace Livraria.Service.Services
         }
 
 
+
         public string DeletarLivroService(Guid id)
         {
             var deletarLivro = GetLivroByIdService(id);
@@ -120,15 +122,18 @@ namespace Livraria.Service.Services
         {
             List<Livro> livro = new List<Livro>();
 
-            livro = _unitOfWork.Livro.List();
+            livro = _unitOfWork.Livro.List().OrderBy(x => x.NomeLivro).ToList();
 
             if (livro == null)
             {
                 throw new Exception("Livro invalido");
             }
 
+            //Comparison<Livro> comp = (l1, l2) => l1.NomeLivro.CompareTo(l2.NomeLivro);
+            //return livro.Sort(comp);
             return livro;
         }
+
 
         public Livro GetLivroByIdService(Guid Id)
         {
