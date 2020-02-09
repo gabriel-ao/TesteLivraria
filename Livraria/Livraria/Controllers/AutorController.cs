@@ -45,21 +45,21 @@ namespace Livraria.API.Controllers
             return "Autor cadastrado com sucesso";
         }
 
-        [HttpPut("EditarAutor")]
-        public string EditarAutor(Autor user)
+        [HttpPost("AtivarAutor")]
+        public string AtivarAutor(Guid id)
         {
+            string retorno = "";
             try
             {
-                _serviceAutor.EditarAutor(user);
+                retorno = _serviceAutor.AtivarAutorService(id);
             }
             catch (LivrariaExceptions error)
             {
                 Console.WriteLine(error);
             }
 
-            return "Autor editado com sucesso";
+            return retorno;
         }
-
 
         [HttpDelete("DesativarAutor")]
         public string DesativarAutor(Guid id)
@@ -77,23 +77,6 @@ namespace Livraria.API.Controllers
             return retorno;
         }
 
-        [HttpPost("AtivarAutor")]
-        public string AtivarAutor(Guid id)
-        {
-            string retorno = "";
-            try
-            {
-                retorno = _serviceAutor.AtivarAutorService(id);
-            }
-            catch (LivrariaExceptions error)
-            {
-                Console.WriteLine(error);
-            }
-
-            return retorno;
-        }
-
-
         [HttpDelete("DelecaoDefinitiva")]
         public string DeletarAutorDefinitivo(Guid id)
         {
@@ -110,5 +93,20 @@ namespace Livraria.API.Controllers
             return retorno;
         }
 
+
+        [HttpPut("EditarAutor")]
+        public string EditarAutor(Autor user)
+        {
+            try
+            {
+                _serviceAutor.EditarAutor(user);
+            }
+            catch (LivrariaExceptions error)
+            {
+                Console.WriteLine(error);
+            }
+
+            return "Autor editado com sucesso";
+        }
     }
 }

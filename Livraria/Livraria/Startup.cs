@@ -85,9 +85,12 @@ namespace Livraria
 
             //Livro
             services.AddTransient<IRepositoryLivro, RepositoryLivro>();
+            services.AddTransient<IServiceLivro, ServiceLivro>();
+
 
             //Exemplar
             services.AddTransient<IRepositoryExemplar, RepositoryExemplar>();
+            services.AddTransient<IServiceExemplar, ServiceExemplar>();
 
 
             services.AddSwaggerGen(c =>
