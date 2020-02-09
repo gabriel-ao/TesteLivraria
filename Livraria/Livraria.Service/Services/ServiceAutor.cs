@@ -91,7 +91,7 @@ namespace Livraria.Service.Services
         {
             var desativarAutor = GetAutorByIdService(id);
 
-            if(desativarAutor.Active != false)
+            if (desativarAutor.Active != false)
             {
                 desativarAutor.Active = false;
 
@@ -107,7 +107,7 @@ namespace Livraria.Service.Services
         {
             var editAutor = GetAutorByIdService(autor.Id);
 
-            if(editAutor != null)
+            if (editAutor != null)
             {
                 _unitOfWork.Autor.Update(autor);
                 _unitOfWork.Commit();
@@ -120,7 +120,7 @@ namespace Livraria.Service.Services
         {
             List<Autor> autor = new List<Autor>();
 
-            autor = _unitOfWork.Autor.List().OrderBy(x => x.NomeAutor).ToList() ;
+            autor = _unitOfWork.Autor.List().OrderBy(x => x.NomeAutor).ToList();
 
 
             if (autor == null)
@@ -135,7 +135,7 @@ namespace Livraria.Service.Services
         {
             var autor = _unitOfWork.Autor.Query(a => a.Id == Id);
 
-            if(autor == null)
+            if (autor == null)
             {
                 throw new Exception("Usuario invalido");
             }

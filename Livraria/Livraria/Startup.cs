@@ -80,17 +80,17 @@ namespace Livraria
             services.AddTransient<IRepositoryUnitOfWork, RepositoryUnitOfWork>();
 
             // Autor
-            services.AddTransient<IRepositoryAutor, RepositoryAutor>();
-            services.AddTransient<IServiceAutor, ServiceAutor>();
+            services.AddScoped<IRepositoryAutor, RepositoryAutor>();
+            services.AddScoped<IServiceAutor, ServiceAutor>();
 
             //Livro
-            services.AddTransient<IRepositoryLivro, RepositoryLivro>();
-            services.AddTransient<IServiceLivro, ServiceLivro>();
+            services.AddScoped<IRepositoryLivro, RepositoryLivro>();
+            services.AddScoped<IServiceLivro, ServiceLivro>();
 
 
             //Exemplar
-            services.AddTransient<IRepositoryExemplar, RepositoryExemplar>();
-            services.AddTransient<IServiceExemplar, ServiceExemplar>();
+            services.AddScoped<IRepositoryExemplar, RepositoryExemplar>();
+            services.AddScoped<IServiceExemplar, ServiceExemplar>();
 
 
             services.AddSwaggerGen(c =>

@@ -11,7 +11,5 @@ namespace Livraria.Infra
             CreateMap<Domain.Model.Livro, Livro>().ReverseMap();
             CreateMap<Domain.Model.Exemplar, Exemplar>().ReverseMap();
         }
-
-
     }
 }

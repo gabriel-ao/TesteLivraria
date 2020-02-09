@@ -128,9 +128,6 @@ namespace Livraria.Service.Services
             {
                 throw new Exception("Livro invalido");
             }
-
-            //Comparison<Livro> comp = (l1, l2) => l1.NomeLivro.CompareTo(l2.NomeLivro);
-            //return livro.Sort(comp);
             return livro;
         }
 

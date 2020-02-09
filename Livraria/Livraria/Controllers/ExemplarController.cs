@@ -25,7 +25,7 @@ namespace Livraria.API.Controllers
         }
 
         [HttpGet("BuscarTodosExemplar")]
-        public List<Exemplar> BuscarTodosUsuarios()
+        public List<Exemplar> BuscarTodosLivros()
         {
             return _serviceExemplar.GetAllExemplaresByIdService();
         }
