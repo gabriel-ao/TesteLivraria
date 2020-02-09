@@ -55,6 +55,8 @@ namespace Livraria.Infra.Migrations
 
                     b.Property<int>("NumeroPaginas");
 
+                    b.Property<int>("NumeroVersao");
+
                     b.Property<DateTimeOffset?>("UpdateDate");
 
                     b.HasKey("Id")

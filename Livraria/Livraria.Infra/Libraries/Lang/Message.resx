@@ -135,6 +135,9 @@
   <data name="MSG_S003" xml:space="preserve">
     <value>Está ativado no momento</value>
   </data>
+  <data name="MSG_S004" xml:space="preserve">
+    <value>Já existe</value>
+  </data>
   <data name="MSG_U001" xml:space="preserve">
     <value>Editado com sucesso</value>
   </data>

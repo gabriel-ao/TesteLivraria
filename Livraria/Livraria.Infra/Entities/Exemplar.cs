@@ -8,7 +8,7 @@ namespace Livraria.Infra.Entities
     public class Exemplar : EntityComplexBase
     {
         public string NomeExemplar { get; set; }
-
+        public int NumeroVersao { get; set; }
         public int NumeroPaginas { get; set; }
 
         //relacionamento com livro

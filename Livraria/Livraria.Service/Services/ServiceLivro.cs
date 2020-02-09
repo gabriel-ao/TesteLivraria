@@ -52,10 +52,27 @@ namespace Livraria.Service.Services
 
         public string CadastrarLivroService(Livro livro)
         {
-            _unitOfWork.Livro.Add(livro);
-            _unitOfWork.Commit();
-            return Message.MSG_S001;
+            var cadastrar = GetAllLivrosByIdService();
+
+            bool VerificandoLivro = false;
+
+            foreach (var vericicandoCadastro in cadastrar)
+            {
+                if(vericicandoCadastro.NomeLivro == livro.NomeLivro && vericicandoCadastro.AutorId == livro.AutorId)
+                {
+                    VerificandoLivro = true;
+                }
+            }
+
+            if(VerificandoLivro == false)
+            {
+                _unitOfWork.Livro.Add(livro);
+                _unitOfWork.Commit();
+                return Message.MSG_S001;
+            }
+            return Message.MSG_S004;
         }
+
 
         public string DeletarLivroService(Guid id)
         {
@@ -107,7 +124,7 @@ namespace Livraria.Service.Services
 
             if (livro == null)
             {
-                throw new Exception("Usuario invalido");
+                throw new Exception("Livro invalido");
             }
 
             return livro;

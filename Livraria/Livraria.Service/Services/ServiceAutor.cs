@@ -52,9 +52,25 @@ namespace Livraria.Service.Services
 
         public string CadastrarAutorService(Autor autor)
         {
-            _unitOfWork.Autor.Add(autor);
-            _unitOfWork.Commit();
-            return Message.MSG_S001;
+            var cadastrar = GetAllAutorByIdService();
+
+            bool VerificandoLivro = false;
+
+            foreach (var vericicandoCadastro in cadastrar)
+            {
+                if (vericicandoCadastro.NomeAutor == autor.NomeAutor)
+                {
+                    VerificandoLivro = true;
+                }
+            }
+
+            if (VerificandoLivro == false)
+            {
+                _unitOfWork.Autor.Add(autor);
+                _unitOfWork.Commit();
+                return Message.MSG_S001;
+            }
+            return Message.MSG_S004;
         }
 
         public string DeletarAutorService(Guid id)
